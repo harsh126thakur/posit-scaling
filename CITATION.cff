@@ -1,0 +1,26 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "positscale: optimal diagonal scaling for posit arithmetic"
+abstract: >-
+  Posit precision is tapered, peaking at unit magnitude, so operand placement
+  is a numerical design variable in a way it is not for IEEE 754. This software
+  formulates posit-optimal diagonal scaling as a convex programme, solves it
+  exactly, and shows the optimum coincides with the maximum mean cycle weight
+  of a bipartite log-magnitude digraph.
+type: software
+version: 0.1.0
+date-released: 2026-08-17
+license: MIT
+repository-code: "https://github.com/harsh126thakur/posit-scaling"
+keywords:
+  - posit arithmetic
+  - tapered precision
+  - computer arithmetic
+  - matrix scaling
+  - equilibration
+  - embedded numerical linear algebra
+authors:
+  - family-names: "YOUR FAMILY NAME"
+    given-names: "YOUR GIVEN NAME"
+    orcid: "https://orcid.org/0000-0000-0000-0000"
+    affiliation: "YOUR INSTITUTION"

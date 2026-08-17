@@ -1,0 +1,11 @@
+# Runtime dependencies. No compiled extensions; pure NumPy/SciPy.
+# Tested with the versions noted in the trailing comments.
+
+numpy>=1.24        # tested: 2.4.4
+scipy>=1.10        # tested: 1.17.1  -- linprog(method="highs")
+pandas>=1.5        # tested: 2.x     -- experiment tabulation only
+matplotlib>=3.6    # tested: 3.x     -- figure generation only
+
+# scipy's HiGHS backend is required for the L-infinity scaling LP.
+# numpy and scipy alone are enough to import positscale; pandas and
+# matplotlib are needed only by experiments/ and are not imported by src/.
