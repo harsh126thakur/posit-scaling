@@ -5,7 +5,7 @@ ROOT = pathlib.Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "src"))
 
 RESULTS = ROOT / "results"
-FIGURES = ROOT / "paper" / "figures"
+FIGURES = ROOT / "figures"
 RESULTS.mkdir(exist_ok=True)
 FIGURES.mkdir(parents=True, exist_ok=True)
 

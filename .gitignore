@@ -15,20 +15,15 @@ venv/
 results/*.csv
 
 # --- generated figures ---
-# Figures ARE tracked: the paper needs them and they are small.
-# (no ignore rule for paper/figures/)
+# Figures ARE tracked: they are small and show the results in the README.
+# (no ignore rule for figures/)
 
-# --- LaTeX build artifacts ---
-paper/*.aux
-paper/*.log
-paper/*.out
-paper/*.bbl
-paper/*.blg
-paper/*.synctex.gz
-paper/*.fdb_latexmk
-paper/*.fls
-paper/*.toc
-# main.pdf IS tracked so readers can see the manuscript without a TeX install.
+# --- manuscript ---
+# The paper is drafted in Overleaf and is deliberately NOT published here.
+paper/
+*.tex
+*.aux
+*.synctex.gz
 
 # --- editors / OS ---
 .vscode/
